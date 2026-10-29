@@ -1,0 +1,16 @@
+{
+  "pedidos": [
+    {"id": "1001", "cliente": "Ana", "itens": [{"id": "P01", "qtd": 1}, {"id": "B01", "qtd": 2}], "status": "entregue", "criado_em": "2026-10-28T19:02", "previsao_entrega": "19:45", "entregue_em": "19:41"},
+    {"id": "1002", "cliente": "Bruno", "itens": [{"id": "L01", "qtd": 2}, {"id": "E01", "qtd": 1}], "status": "saiu_para_entrega", "criado_em": "2026-10-28T19:10", "previsao_entrega": "19:50"},
+    {"id": "1003", "cliente": "Carla", "itens": [{"id": "M05", "qtd": 1}, {"id": "D03", "qtd": 1}], "status": "em_preparo", "criado_em": "2026-10-28T19:15", "previsao_entrega": "20:05"},
+    {"id": "1004", "cliente": "Diego", "itens": [{"id": "P06", "qtd": 1}, {"id": "E04", "qtd": 1}, {"id": "B03", "qtd": 1}], "status": "recebido", "criado_em": "2026-10-28T19:20", "previsao_entrega": "20:15"},
+    {"id": "1005", "cliente": "Elisa", "itens": [{"id": "S02", "qtd": 1}, {"id": "B02", "qtd": 1}], "status": "cancelado", "criado_em": "2026-10-28T19:22", "motivo_cancelamento": "Cliente solicitou cancelamento antes do preparo."},
+    {"id": "1006", "cliente": "Felipe", "itens": [{"id": "M06", "qtd": 2}], "status": "saiu_para_entrega", "criado_em": "2026-10-28T19:25", "previsao_entrega": "20:10", "atraso_min": 15},
+    {"id": "1007", "cliente": "Gabriela", "itens": [{"id": "L02", "qtd": 1}, {"id": "L04", "qtd": 1}, {"id": "B04", "qtd": 2}], "status": "em_preparo", "criado_em": "2026-10-28T19:31", "previsao_entrega": "20:10"},
+    {"id": "1008", "cliente": "Henrique", "itens": [{"id": "P03", "qtd": 1}, {"id": "D02", "qtd": 1}], "status": "entregue", "criado_em": "2026-10-28T18:40", "previsao_entrega": "19:20", "entregue_em": "19:35", "atraso_min": 15},
+    {"id": "1009", "cliente": "Isabela", "itens": [{"id": "S03", "qtd": 1}], "status": "recebido", "criado_em": "2026-10-28T19:40", "previsao_entrega": "20:20"},
+    {"id": "1010", "cliente": "João", "itens": [{"id": "M01", "qtd": 1}, {"id": "E02", "qtd": 1}, {"id": "D01", "qtd": 1}], "status": "saiu_para_entrega", "criado_em": "2026-10-28T19:05", "previsao_entrega": "19:55"},
+    {"id": "1011", "cliente": "Larissa", "itens": [{"id": "P05", "qtd": 1}, {"id": "B02", "qtd": 2}], "status": "em_preparo", "criado_em": "2026-10-28T19:44", "previsao_entrega": "20:30"},
+    {"id": "1012", "cliente": "Marcos", "itens": [{"id": "E03", "qtd": 2}, {"id": "B01", "qtd": 3}], "status": "entregue", "criado_em": "2026-10-28T18:15", "previsao_entrega": "18:55", "entregue_em": "18:50"}
+  ]
+}
